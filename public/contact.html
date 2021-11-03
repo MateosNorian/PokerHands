@@ -1,0 +1,87 @@
+<!-- 
+Create HTML webpages with contents that support the overall objective, including but not limited to:
+Images are defined using both alt and title.
+Create a favicon and add it to your site. See how to and online favicon generator.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Pokerhands.com with feedback." />
+    <meta
+      name="keywords"
+      content="Poker, PokerHands, Cards, Poker uploader, Poker discussions, Poker community, Contact"
+    />
+    <meta name="author" content="Mateos Norian" />
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>PokerHands - Home</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3 class="nav-header">PokerHands.com</h3>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#">Upload</a></li>
+          <li><a href="#">About</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content-wrapper">
+      <div class="hero container">
+        <div class="hero-content">
+          <span class="spread-text">contact us</span>
+          <h3>We'd love to hear from you!</h3>
+        </div>
+      </div>
+      <div class="container margin-top">
+        <form action="/">
+          <div class="form-row">
+            <label for="email" class="label-block">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-row">
+            <label for="feedback" class="label-block">Feedback</label>
+            <textarea
+              name="feedback"
+              id="feedback"
+              cols="60"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
+    <footer class="margin-top">
+      <div class="footer-column">
+        <h3>PokerHands.com</h3>
+        <ul>
+          <li>555-777-3333</li>
+          <li>hello@pokerhands.com</li>
+          <li>Babson College, Babson Park, MA</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="/sitemap.html">Site map</a></li>
+          <li><a href="/contact.html">Contact us</a></li>
+          <li><a href="#">Upload a hand</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <ul>
+          <li>&copy; 2021 | Pokerhands.com</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
